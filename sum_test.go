@@ -9,3 +9,7 @@ func TestSum(t *testing.T) {
 		t.Error("O resultado é diferente de 5")
 	}
 }
+
+func TestMain(t *testing.T) {
+	main()
+}
